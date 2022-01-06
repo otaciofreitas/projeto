@@ -5,10 +5,8 @@
     </div>
     <div>
       <HelloWorld/>
-      <Inicio/>
-      <Formulario/>
+      <formulario/>
       <Rodape/>
-
 
     </div>
   </div>
@@ -17,15 +15,13 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Rodape from './components/rodape.vue'
-import Inicio from './components/Inicio.vue'
-import Formulario from './components/Formulario.vue'
+import Formulario from './Formulario.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Rodape,
-    Inicio,
     Formulario
   }
 }
@@ -41,5 +37,16 @@ export default {
   padding: 30px;
   background: rgb(241, 241, 250);
 }
+
+</style>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
 
 </style>
